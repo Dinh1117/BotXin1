@@ -1,0 +1,26 @@
+module.exports.config = {
+    name: "jimmy",
+    version: "1.0.0",
+    hasPermssion: 0,
+    credits: "Fix ManhG",
+    description: "Xem ảnh Jimmy",
+    commandCategory: "random-img",
+    usages: "boy",
+    cooldowns: 5
+};
+
+module.exports.run = async function ({ event, api, args }) {
+  const { threadID, messageID } = event;
+  //chatfuel là dạng [{"type":"girl","data":"https://i.ibb.co/dL83x1T/cj-14.jpg"}] có ngoặc [ ]
+
+  var reply = {
+    body: "",
+    attachment: (await global.nodemodule["axios"]({
+      url: (await global.nodemodule["axios"]('https://jimmy.ocvat2810.repl.co')).data.data, //Nếu api dạng chatfuel thì là .data[0].data '-'
+      method: "GET",
+      responseType: "stream"
+    })).data
+
+  }
+  return api.sendMessage(reply, threadID, messageID);
+}

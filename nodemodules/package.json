@@ -1,0 +1,38 @@
+{
+  "name": "nodemodules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Catalizcs",
+  "license": "ISC",
+  "dependencies": {
+    "amlich": "",
+    "bitly": "",
+    "chem-eb": "",
+    "discord-image-generation": "",
+    "discord.js": "",
+    "facebook-tools": "",
+    "fast-speedtest-api": "",
+    "fb-tools": "",
+    "ip-info3": "",
+    "javascript-obfuscator": "",
+    "lyrics-finder": "",
+    "node-superfetch": "",
+    "pidusage": "",
+    "qrcode": "",
+    "random": "",
+    "sagiri": "",
+    "simple-youtube-api": "",
+    "soundcloud-downloader": "",
+    "srod-v2": "",
+    "systeminformation": "",
+    "tesseract.js": "",
+    "tiktok-scraper": "",
+    "tinyurl": "",
+    "wikijs": "",
+    "ytdl-core": ""
+  }
+}

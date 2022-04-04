@@ -1,0 +1,65 @@
+{
+    "name": "miraiBot",
+    "version": "1.2.15",
+    "description": "A simple Facebook Messenger Bot made by me(CatalizCS) and my brother SpermLord.",
+    "main": "mirai.js",
+    "scripts": {
+        "start": "node index",
+        "login": "node login",
+        "test": "node --trace-warnings --use_strict --async-stack-traces mirai"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/manhkhac/mirai-1.2.15.git"
+    },
+    "keywords": [
+        "bot",
+        "facebook",
+        "projectmirai",
+        "messenger",
+        "mirai",
+        "catalizcs",
+        "spermlord",
+        "miraipr0ject"
+    ],
+    "author": "CatalizCS & SpermLord",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/manhkhac/mirai-1.2.15/issues"
+    },
+    "homepage": "https://github.com/manhkhac/mirai-1.2.15#readme",
+    "dependencies": {
+        "axios": "",
+        "body-parser": "",
+        "caesar-salad": "",
+        "canvas": "",
+        "chalk": "^2.4.2",
+        "cheerio": "^0.22.0",
+        "child_process": "",
+        "cli": "",
+        "crypto": "",
+        "eval": "",
+        "express": "^4.17.1",
+        "extract-zip": "",
+        "lawerpr0ject-api": "^1.6.3",
+        "fb-downloads": "",
+        "flag": "",
+        "fs-extra": "",
+        "jimp": "",
+        "lyrics-finder": "",
+        "manhg-assets": "",
+        "minimist": "",
+        "moment-timezone": "",
+        "ms": "",
+        "npmlog": "",
+        "path": "",
+        "readline": "",
+        "request": "",
+        "semver": "",
+        "sequelize": "",
+        "sqlite3": "",
+        "string-similarity": "",
+        "to-zalgo": "",
+        "totp-generator": "0.0.12"
+    }
+}
